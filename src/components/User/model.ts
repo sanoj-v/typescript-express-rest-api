@@ -1,4 +1,4 @@
-import * as bcrypt from 'bcrypt';
+import * as bcrypt from 'bcryptjs';
 import * as connections from '@/config/connection/connection';
 import * as crypto from 'crypto';
 import { Document, Schema } from 'mongoose';
